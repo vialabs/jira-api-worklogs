@@ -1,1 +1,9 @@
-
+body{
+    background-color: #79d0ff;
+  }
+  #teste{
+    width: 400px;
+    height: 100px;
+    background-image: url(logolc.png);
+    background-repeat: repeat;
+  }
