@@ -2,7 +2,7 @@
     "name": "Via Manager - DEVELOPMENT",
     "description": "Atlassian Connect app",
     "key": "HWAPP",
-    "baseUrl": "https://86190bb46988.ngrok.io",
+    "baseUrl": "https://2ae9d77b1aae.ngrok.io",
     "vendor": {
         "name": "Fabiano Alves",
         "url": "http://example.com"
