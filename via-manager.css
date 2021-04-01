@@ -1,0 +1,32 @@
+}
+
+a{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    font-family: arial;
+
+
+}
+
+ul{
+    List-style: none;
+}
+
+img{
+    width: 40px;
+}
+
+input[type="checkbox"]
+{
+    display: none
+}

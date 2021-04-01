@@ -1,8 +1,8 @@
 {
-    "name": "Via Manager - DEVELOPMENT",
+    "name": "Via Manager - DEV",
     "description": "Atlassian Connect app",
     "key": "HWAPP",
-    "baseUrl": "https://2ae9d77b1aae.ngrok.io",
+    "baseUrl": "https://dd2a750882fc.ngrok.io",
     "vendor": {
         "name": "Fabiano Alves",
         "url": "http://example.com"
@@ -18,9 +18,10 @@
                 "key": "via-manager",
                 "location": "system.top.navigation.bar",
                 "name": {
-                    "value": "Via Manager"
+                    "value": "Via Management"
                 }
             }
+        
         ]
     }
 }
