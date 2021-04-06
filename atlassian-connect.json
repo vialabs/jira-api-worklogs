@@ -1,8 +1,8 @@
 {
-    "name": "Via Manager - DEV",
+    "name": "Create Project",
     "description": "Atlassian Connect app",
-    "key": "HWAPP",
-    "baseUrl": "https://b4b1b2f0acfb.ngrok.io",
+    "key": "com.example.myapp",
+    "baseUrl": "https://441eac01d691.ngrok.io",
     "vendor": {
         "name": "Fabiano Alves",
         "url": "http://example.com"
@@ -14,14 +14,13 @@
     "modules": {
         "generalPages": [
             {
-                "url": "/viamanager.html",
-                "key": "via-manager",
+                "url": "/createproject.html",
+                "key": "create-project",
                 "location": "system.top.navigation.bar",
                 "name": {
-                    "value": "Via Management"
+                    "value": "Create Project"
                 }
             }
-        
         ]
     }
 }
