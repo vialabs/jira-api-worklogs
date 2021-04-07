@@ -2,7 +2,7 @@
     "name": "Create Project",
     "description": "Atlassian Connect app",
     "key": "com.example.myapp",
-    "baseUrl": "https://441eac01d691.ngrok.io",
+    "baseUrl": "https://c01b1d6fdd0c.ngrok.io",
     "vendor": {
         "name": "Fabiano Alves",
         "url": "http://example.com"
