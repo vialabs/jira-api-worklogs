@@ -3,7 +3,13 @@
     <head>
         <link rel="stylesheet" href="https://unpkg.com/@atlaskit/css-reset@2.0.0/dist/bundle.css" media="all">
         <script type="text/javascript" src="https://connect-cdn.atl-paas.net/all.js"></script>
-
+        <script>
+            function getValue(projects, clients) { 
+                    var projects = document.getElementById("project").value;
+                    var clients = document.getElementById("client").value;
+                    console.log(JSON.stringify({}))
+                    }
+        </script>
     </head>
     <body>
         <center>   <h1>Create Project</h1> </center>
@@ -16,19 +22,5 @@
             placeholder="Insert the name of the Client"> <br><br>
             <button onclick="getValue()"> Create </button><p id="create"></p>
          </center>     
-            <script>    
-            function getValue(){ 
-                dados = {
-                    projects : document.getElementById("project").value,
-                    cients : document.getElementById("client").value
-                         }
-                        }
-            console.log(getValue());
-                //####################################################//
-                // transformar inputs recebidos em um json
-                // comittar o codigo no git/lambda
-                // criar uma API a ser acessada pelo postman que acesse esse json
-            </script>
-        </section>
     </body>
 </html>
