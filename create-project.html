@@ -14,14 +14,19 @@
             <br><br><br>
             <b>Client</b>: <input type="text" id="client" value"" size="30"
             placeholder="Insert the name of the Client"> <br><br>
-            <button onclick="getValue()"> Create </button><p id="creater"></p>
+            <button onclick="getValue()"> Create </button><p id="create"></p>
          </center>     
             <script>        
             function getValue(){
-                var Jbutton   = document.getElementById('creater');
-                var projecter = document.getElementById('project').value;
-                var custommer = document.getElementById('client').value;
-                Jbutton.innerHTML= projecter + '<br>' + custommer
+                var buttons   = document.getElementById('create');
+                var projects = document.getElementById('project').value;
+                var clients = document.getElementById('client').value;
+                element.innerHTML = "";
+                console.log(JSON.stringify({}));
+
+                // transformar inputs recebidos em um json
+                // comittar o codigo no git/lambda
+                // criar uma API a ser acessada pelo postman que acesse esses json
                 }
             </script>
         </section>
