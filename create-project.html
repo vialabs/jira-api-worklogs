@@ -16,18 +16,18 @@
             placeholder="Insert the name of the Client"> <br><br>
             <button onclick="getValue()"> Create </button><p id="create"></p>
          </center>     
-            <script>        
-            function getValue(){
-                var buttons   = document.getElementById('create');
-                var projects = document.getElementById('project').value;
-                var clients = document.getElementById('client').value;
-                element.innerHTML = "";
-                console.log(JSON.stringify({}));
-
+            <script>    
+            function getValue(){ 
+                dados = {
+                    projects : document.getElementById("project").value,
+                    cients : document.getElementById("client").value
+                         }
+                        }
+            console.log(getValue());
+                //####################################################//
                 // transformar inputs recebidos em um json
                 // comittar o codigo no git/lambda
-                // criar uma API a ser acessada pelo postman que acesse esses json
-                }
+                // criar uma API a ser acessada pelo postman que acesse esse json
             </script>
         </section>
     </body>
