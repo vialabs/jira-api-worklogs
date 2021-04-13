@@ -1,5 +1,5 @@
 {
-    "name": "Create Project",
+    "name": "create-project",
     "description": "Atlassian Connect app",
     "key": "com.example.myapp",
     "baseUrl": "https://6dc82434ff23.ngrok.io",
@@ -18,7 +18,7 @@
                 "key": "create-project",
                 "location": "system.top.navigation.bar",
                 "name": {
-                    "value": "Create Project"
+                    "value": "create-project"
                 }
             }
         ]
